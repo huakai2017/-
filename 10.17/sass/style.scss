@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    height: 56px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.top2{
+    height: 140px;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    justify-content: space-around;
+    background: #1c81d3;
+    align-items: center;
+    div{
+        height: 90px;
+        width: 500px;
+        background: #1873b9;
+        line-height: 90px;
+        color: gainsboro;
+        padding-left: 20px;
+        border-radius: 5px;
+    }
+}
+
+.lun ul{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li{
+        width: 20%;
+        height: 50%;
+        text-align: center;
+        img{
+            width: 70%;
+            height: 60%;
+            
+        }
+    }
+}
+.top3{
+    width: 100%;
+    height: 164px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div{
+        height: 80%;
+        span{
+            color: orange;
+        };
+    }
+    img{
+        height: 80%;
+    }
+}
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    .tu{
+        width: 40%;
+        display: flex;
+        p{
+            color: red;
+            font-size: 30px;
+        }
+    }
+    h1{
+        width: 40%;
+        span{
+            color: orangered;
+        }
+    }
+}
+
+.ren{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 28px;
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}
+
+.mei{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    background: #fe555a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 10px 10px 0px 0px;
+}
+.tu2{
+    width: 91.6%;
+    margin: 0 auto;
+    height: 350px;
+    justify-content: space-around;
+    img{
+        margin-top: 10px;
+        width: 33%;
+        height: 100%;
+    }
+}
